@@ -1,6 +1,6 @@
 {
     "bundles": {
-        "ErnadoO\\MondialRelayBundle\\ErnadoOMondialRelayBundle": ["all"]
+        "Ernadoo\\MondialRelayBundle\\ErnadooMondialRelayBundle": ["all"]
     },
     "copy-from-recipe": {
         "config/": "%CONFIG_DIR%/"

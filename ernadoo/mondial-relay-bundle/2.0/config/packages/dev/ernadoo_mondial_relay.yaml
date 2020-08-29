@@ -1,0 +1,12 @@
+ernadoo_mondial_relay:
+    api:
+        wsdl: https://api.mondialrelay.com/Web_Services.asmx?WSDL
+        options:
+            trace: '%kernel.debug%'
+            #keep_alive : false
+            #cache_wsdl : !php/const WSDL_CACHE_NONE
+
+        credentials:
+            customer_code: BDTEST13
+            secret_key: PrivateK
+            brand_id: 11

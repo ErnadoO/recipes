@@ -1,0 +1,45 @@
+{
+    "manifests": {
+        "ernadoo/mondial-relay-bundle": {
+            "manifest": {
+                "bundles": {
+                    "Ernadoo\\MondialRelayBundle\\ErnadooMondialRelayBundle": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%/"
+                }
+            },
+            "files": {
+                "config/packages/prod/ernadoo_mondial_relay.yaml": {
+                    "contents": [
+                        "ernadoo_mondial_relay:\r",
+                        "    api:\r",
+                        "        wsdl: https://api.mondialrelay.com/Web_Services.asmx?WSDL\r",
+                        "\r",
+                        "        credentials:\r",
+                        "            customer_code:\r",
+                        "            secret_key:\r",
+                        "            brand_id:"
+                    ],
+                    "executable": false
+                },
+                "config/packages/dev/ernadoo_mondial_relay.yaml": {
+                    "contents": [
+                        "ernadoo_mondial_relay:\r",
+                        "    api:\r",
+                        "        wsdl: https://api.mondialrelay.com/Web_Services.asmx?WSDL\r",
+                        "\r",
+                        "        credentials:\r",
+                        "            customer_code: BDTEST13\r",
+                        "            secret_key: PrivateK\r",
+                        "            brand_id: 11"
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "94d018fee982858b47ee049a7fdba84ac6b688fd"
+        }
+    }
+}

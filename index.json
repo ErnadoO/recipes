@@ -1,0 +1,18 @@
+{
+    "aliases": [],
+    "recipes": {
+        "ernadoo/mondial-relay-bundle": [
+            "1.0",
+            "1.0.1",
+            "2.0"
+        ]
+    },
+    "versions": [],
+    "branch": "master",
+    "is_contrib": false,
+    "_links": {
+        "repository": "github.com/ErnadoO/recipes",
+        "origin_template": "{package}:{version}@github.com/ErnadoO/recipes:master",
+        "recipe_template": "https://api.github.com/repos/ErnadoO/recipes/contents/{package_dotted}.{version}.json?ref=flex/main"
+    }
+}

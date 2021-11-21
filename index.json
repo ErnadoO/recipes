@@ -9,7 +9,7 @@
     },
     "versions": [],
     "branch": "master",
-    "is_contrib": false,
+    "is_contrib": true,
     "_links": {
         "repository": "github.com/ErnadoO/recipes",
         "origin_template": "{package}:{version}@github.com/ErnadoO/recipes:master",

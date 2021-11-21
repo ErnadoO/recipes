@@ -12,19 +12,6 @@
                 }
             },
             "files": {
-                "config/packages/prod/ernadoo_mondial_relay.yaml": {
-                    "contents": [
-                        "ernadoo_mondial_relay:\r",
-                        "    api:\r",
-                        "        wsdl: https://api.mondialrelay.com/Web_Services.asmx?WSDL\r",
-                        "\r",
-                        "        credentials:\r",
-                        "            customer_code:\r",
-                        "            secret_key:\r",
-                        "            brand_id:"
-                    ],
-                    "executable": false
-                },
                 "config/packages/dev/ernadoo_mondial_relay.yaml": {
                     "contents": [
                         "ernadoo_mondial_relay:\r",
@@ -35,6 +22,19 @@
                         "            customer_code: BDTEST13\r",
                         "            secret_key: PrivateK\r",
                         "            brand_id: 11"
+                    ],
+                    "executable": false
+                },
+                "config/packages/prod/ernadoo_mondial_relay.yaml": {
+                    "contents": [
+                        "ernadoo_mondial_relay:\r",
+                        "    api:\r",
+                        "        wsdl: https://api.mondialrelay.com/Web_Services.asmx?WSDL\r",
+                        "\r",
+                        "        credentials:\r",
+                        "            customer_code:\r",
+                        "            secret_key:\r",
+                        "            brand_id:"
                     ],
                     "executable": false
                 }

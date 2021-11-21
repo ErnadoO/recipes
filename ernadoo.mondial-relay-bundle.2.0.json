@@ -12,23 +12,6 @@
                 }
             },
             "files": {
-                "config/packages/ernadoo_mondial_relay.yaml": {
-                    "contents": [
-                        "ernadoo_mondial_relay:",
-                        "    api:",
-                        "        wsdl: https://api.mondialrelay.com/Web_Services.asmx?WSDL",
-                        "        options:",
-                        "            trace: '%kernel.debug%'",
-                        "            #keep_alive : false",
-                        "            #cache_wsdl : !php/const WSDL_CACHE_NONE",
-                        "",
-                        "        credentials:",
-                        "            customer_code:",
-                        "            secret_key:",
-                        "            brand_id:"
-                    ],
-                    "executable": false
-                },
                 "config/packages/dev/ernadoo_mondial_relay.yaml": {
                     "contents": [
                         "ernadoo_mondial_relay:",
@@ -43,6 +26,23 @@
                         "            customer_code: BDTEST13",
                         "            secret_key: PrivateK",
                         "            brand_id: 11"
+                    ],
+                    "executable": false
+                },
+                "config/packages/ernadoo_mondial_relay.yaml": {
+                    "contents": [
+                        "ernadoo_mondial_relay:",
+                        "    api:",
+                        "        wsdl: https://api.mondialrelay.com/Web_Services.asmx?WSDL",
+                        "        options:",
+                        "            trace: '%kernel.debug%'",
+                        "            #keep_alive : false",
+                        "            #cache_wsdl : !php/const WSDL_CACHE_NONE",
+                        "",
+                        "        credentials:",
+                        "            customer_code:",
+                        "            secret_key:",
+                        "            brand_id:"
                     ],
                     "executable": false
                 }

@@ -1,0 +1,7 @@
+ernadoo_mondial_relay:
+    credentials:
+        login:       BDTEST
+        password:    BDTEST
+        customer_id: 'BDTEST  '
+        secret_key:  PrivateK
+    sandbox: true

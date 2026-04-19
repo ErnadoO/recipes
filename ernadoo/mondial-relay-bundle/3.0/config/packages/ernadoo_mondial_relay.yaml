@@ -1,0 +1,7 @@
+ernadoo_mondial_relay:
+    credentials:
+        login:       '%env(MR_LOGIN)%'
+        password:    '%env(MR_PASSWORD)%'
+        customer_id: '%env(MR_CUSTOMER_ID)%'
+        secret_key:  '%env(MR_SECRET_KEY)%'
+    sandbox: false

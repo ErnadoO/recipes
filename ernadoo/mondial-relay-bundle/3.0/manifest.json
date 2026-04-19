@@ -1,0 +1,14 @@
+{
+    "bundles": {
+        "Ernadoo\\MondialRelayBundle\\ErnadooMondialRelayBundle": ["all"]
+    },
+    "copy-from-recipe": {
+        "config/": "%CONFIG_DIR%/"
+    },
+    "env": {
+        "MR_LOGIN": "",
+        "MR_PASSWORD": "",
+        "MR_CUSTOMER_ID": "",
+        "MR_SECRET_KEY": ""
+    }
+}
